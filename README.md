@@ -89,6 +89,5 @@ If you find our work useful, please cite:
       year = "2023",
       address = "Toronto, Canada",
       publisher = "Association for Computational Linguistics",
-      year={2023},
 }
 ```
