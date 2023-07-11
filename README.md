@@ -4,7 +4,7 @@
 
 ## Overviews
 
-This is the repository for ACL2023 main conference paper: **HyPe** (HyPe: Better Pre-trained Language Model Fine-tuning with Hidden Representation Perturbation). You can find our paper on [ArXiv](https://arxiv.org/abs/2212.08853).
+This is the repository for ACL2023 main conference paper: **HyPe** (HyPe: Better Pre-trained Language Model Fine-tuning with Hidden Representation Perturbation). You can find our paper on [ArXiv](https://arxiv.org/abs/2212.08853) or on [ACL Anthology](https://aclanthology.org/2023.acl-long.182/).
 
 Language models with the Transformers structure have shown great performance in natural language processing.
 However, there still poses problems when fine-tuning pre-trained language models on downstream tasks, such as over-fitting or representation collapse.
