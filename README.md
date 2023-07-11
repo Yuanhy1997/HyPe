@@ -81,13 +81,20 @@ You can modify the following three args to explore different settings of HyPe:
 If you find our work useful, please cite:
 
 ```
-@inproceedings{yuan2023hype,
-      title={HyPe: Better Pre-trained Language Model Fine-tuning with Hidden Representation Perturbation}, 
-      author={Hongyi Yuan and Zheng Yuan and Chuanqi Tan and Fei Huang and Songfang Huang},
-      booktitle = "The 61st Annual Meeting of the Association for Computational Linguistics",
-      month = jul,
-      year = "2023",
-      address = "Toronto, Canada",
-      publisher = "Association for Computational Linguistics",
+@inproceedings{yuan-etal-2023-hype,
+    title = "{H}y{P}e: Better Pre-trained Language Model Fine-tuning with Hidden Representation Perturbation",
+    author = "Yuan, Hongyi  and
+      Yuan, Zheng  and
+      Tan, Chuanqi  and
+      Huang, Fei  and
+      Huang, Songfang",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.182",
+    pages = "3246--3264",
+    abstract = "Language models with the Transformers structure have shown great performance in natural language processing.However, there still poses problems when fine-tuning pre-trained language models on downstream tasks, such as over-fitting or representation collapse.In this work, we propose HyPe, a simple yet effective fine-tuning technique to alleviate such problems by perturbing hidden representations of Transformers layers. Unlike previous works that only add noise to inputs or parameters, we argue that the hidden representations of Transformers layers convey more diverse and meaningful language information. Therefore, making the Transformers layers more robust to hidden representation perturbations can further benefit the fine-tuning of PLMs en bloc.We conduct extensive experiments and analyses on GLUE and other natural language inference datasets. Results demonstrate that HyPe outperforms vanilla fine-tuning and enhances generalization of hidden representations from different layers. In addition, HyPe acquires negligible computational overheads, and is better than and compatible with previous state-of-the-art fine-tuning techniques.",
 }
 ```
